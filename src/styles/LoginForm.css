@@ -1,0 +1,84 @@
+.login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .user-type-toggle {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .user-type-toggle button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .user-type-toggle button.active {
+    background: #d1c4e9;
+    color: #fff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .remember-device {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .remember-device input {
+    margin-right: 10px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background: #5e35b1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .help-text, .terms-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .link-button {
+    background: none;
+    border: none;
+    color: #5e35b1;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+  }
